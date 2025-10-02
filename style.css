@@ -1,0 +1,30 @@
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+}
+
+.card {
+    border: 1px solid #ccc;
+    padding: 1rem;
+    border-radius: 8px;
+    background: #f9f9f9;
+}
+
+.card.available {
+    background: #d4edda;
+    /* vert pâle */
+    border-color: #28a745;
+}
+
+.card.inuse {
+    background: #fff3cd;
+    /* orange pâle */
+    border-color: #ffc107;
+}
+
+.card.late {
+    background: #f8d7da;
+    /* rouge pâle */
+    border-color: #dc3545;
+}
